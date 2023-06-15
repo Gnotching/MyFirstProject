@@ -1,0 +1,36 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	width: 100%;
+	min-height: 1000px;
+}
+#navbar #nav a{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-weight: 700;
+	font-size: 1.85em;
+}
+a abbr:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #000000;
+}
+h1{
+	/*margin-bottom: 3.5cm;*/
+	letter-spacing: 20px;
+	text-align: center;
+}
+#conten p{
+	text-indent: 50px;
+	text-align: justify;
+}
+#conten #gg a{
+	text-decoration: none;
+	color: white;
+}
+#conten a:hover {
+	text-decoration: none;
+	color: green;
+}
