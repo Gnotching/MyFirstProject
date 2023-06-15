@@ -1,0 +1,52 @@
+body{
+	margin-bottom: 0px;
+	padding: 0px;
+	background:url(background.jpg);
+	background-size: cover;
+	height: 100px;
+	font-family: Times New Roman;
+
+}
+
+.login-user{
+	height: 470px;
+	width: 320px;
+	background: rgba(0,0,0,0.5);
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	padding: 70px;
+	transform: translate(-50%,-50%);
+
+}
+.login-user h1{
+	font-size:200%;
+	margin-bottom:10px; 
+	
+}
+.login-user p {
+	font-size:150%; 
+	font-weight: bold;
+	margin-bottom:10px; 
+}
+.login-user .big input{
+	width:200px;
+	height: 30px; 
+	top: 20px;
+	bottom:20px;
+}
+.login-user .small input{
+	width:100px;
+	height: 30px; 
+	margin-top: 30px;
+
+.icon{
+	width:50px;
+	height:50px;
+	top:-90px;
+	left:calc(28% - 50%);
+	border-radius: 5%;
+	position: absolute;
+}
